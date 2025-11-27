@@ -5,11 +5,11 @@ The workflow includes data cleaning, feature engineering, exploratory data analy
 
 ## 📁 **Project Structure**
 
-------project/
+project/
 │── train.csv
 │── test.csv
 │── notebook.ipynb
-│── README.md
+└── README.md
 
 ## 🔍 **1. Exploratory Data Analysis (EDA)**
 
@@ -96,10 +96,10 @@ submission = pd.DataFrame({
 submission.to_csv("submission_xgb.csv", index=False)
 ```
 
-🚀 5. Future Improvements
+## 🚀 Future Improvements
 
-Hyperparameter tuning (GridSearchCV / Optuna)
-Log-transform of skewed features
-Feature selection / PCA
-Stacking Regressors (XGB + RF + GBR ensemble)
-Regularized models (Lasso/Ridge/ElasticNet)
+- **Hyperparameter Tuning**
+- **Handle Skewed Features**
+- **Feature Selection**
+- **Model Ensembling**
+- **Regularized Models**
